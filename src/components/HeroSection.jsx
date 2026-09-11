@@ -181,13 +181,21 @@ export default function HeroSection(){
 
             >
                 <Button
-                variant="accent"
-                size="lg"
-                className= "shadow-lg"
-                onClick = {() => document.getElementById("shop")?.scrollIntoView({behavior: "smooth"
+                    variant="accent"
+                    size="lg"
+                    className= "shadow-lg"
+                        onClick = {() => document.getElementById("shop")?.scrollIntoView({behavior: "smooth"
                 })}
                 >
                     SHOP COFFEE ☕
+                </Button>
+                <Button
+                    variant="outline"
+                    size="lg"
+                    onClick={() =>
+                        document.getElementById("about")?.scrollIntoView({behavior: "smooth"})
+                }
+                >OUR STORY
                 </Button>
 
             </motion.div>
