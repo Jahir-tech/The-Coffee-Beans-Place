@@ -239,7 +239,7 @@ export default function FooterSection(){
                     className="h-24 w-auto place-self-center md:place-self-auto"
                     />
                     <p className="footer-description justify-self-center text-center md:justify-self-auto md:text-left">
-                        Premium coffee beans, roasted to order and shipped fresh. From our roastery to your cup since 2012
+                        Premium coffee beans, roasted to order and shipped fresh. From our roastery to your cup since 2012.
                     </p>
                     {/* One link per social entry, icon only */}
                     <div className="flex gap-x-6 justify-self-center md:justify-self-auto">
