@@ -151,10 +151,10 @@ export default function AboutSection() {
                 {/* fadeleft slides the text in from the left */}
                 <ScrollReveal animation="fadeLeft" className="about-story-text">
                     <p className="about-body lead--light">
-                        The beans Place started in 2012 with one simple belief: great coffee should be accessible to everyone-not just aficionados. We work directly with farming cooperatives across four continents, paying above fair-trade prices to ensure quality from soil to sip.
+                        The Beans Place started in 2012 with one simple belief: great coffee should be accessible to everyone-not just aficionados. We work directly with farming cooperatives across four continents, paying above fair-trade prices to ensure quality from soil to sip.
                     </p>
                     <p className="about-body lead--light">
-                        Every week, our roadmaster cups dozens of samples to select only the lots that meet our standard. Whether you prefer a bright, fruity Ethiopian Yirgacheffe or a deep, chocolatey Colombian Supremo, we roast each batch to order so it arrives at peak freshness.
+                        Every week, our roastmaster cups dozens of samples to select only the lots that meet our standard. Whether you prefer a bright, fruity Ethiopian Yirgacheffe or a deep, chocolatey Colombian Supremo, we roast each batch to order so it arrives at peak freshness.
                     </p>
                 </ScrollReveal>
                 
@@ -176,7 +176,7 @@ export default function AboutSection() {
                     </div>
                 </ScrollReveal>
             </div>
-            {/* value cards - each stats 0.15s after the one before */}
+            {/* value cards - each starts 0.15s after the one before */}
             <StaggerContainer staggerDelay={0.15} className="about-cards-grid">
                 {values.map((v) =>(
 
@@ -196,7 +196,7 @@ export default function AboutSection() {
                         </Card>
                     </StaggerItem>
 
-                ))};
+                ))}
             </StaggerContainer>
         </div>
     );
